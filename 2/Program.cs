@@ -33,4 +33,5 @@ int[] array = CreateArrayRandom(4, -10, 20);
 // По примеру 4 - количество индексов, -10 - начальный диапазон, 20 - конечный диапазон.
 int summ = SumOfElementsInOddPositions(array);
 Console.WriteLine(String.Join("; ", array));
+Console.WriteLine();
 Console.WriteLine($"Сумма элементов на нечётных позициях равна: {summ}");

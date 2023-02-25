@@ -33,5 +33,6 @@ int amount = AmountOfEvenNumbers(array);
 // как и в теле метода AmountOfEvenNumbers и присвоить ему диапазон массива этого же метода!
 Console.WriteLine(String.Join("; ", array));
 // Добавляю все значения в строки и присваиваю им делитель ; + пробел для красоты
+Console.WriteLine();
 Console.WriteLine($"Количество чётных чисел в массиве равно: {amount}");
 // B конечном итоге вывожу результат верной суммы диапазона.
